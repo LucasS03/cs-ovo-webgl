@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movimentação FPS - Three.js</title>
-    
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://unpkg.com/three@latest/build/three.module.js",
-          "three/addons/": "https://unpkg.com/three@latest/examples/jsm/"
-        }
-      }
-    </script>
-
-    <script type="module" src="index.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPS Movement with Physics</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
-<body style="margin: 0; overflow: hidden;">
+
+<body>
+  <!-- Scripts externos -->
+  <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cannon/build/cannon.min.js"></script>
+
+  <!-- Scripts do projeto -->
+  <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
